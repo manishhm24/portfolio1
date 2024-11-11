@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manish H M's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        // Smooth Scrolling for Navbar Links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});
+ /* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body Background */
+body {
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgb(88, 58, 180) 0%, rgb(29, 85, 253) 50%, rgb(69, 72, 252) 100%);
+    color: #fff;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+/* Header */
+.header {
+    padding: 100px 0;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.header h1 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+
+/* Section Styling */
+section {
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px;
+    border-radius: 8px;
+    animation: slideUp 1.5s ease-in-out;
+}
+
+/* Section Headers */
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+    </style>
+    <!-- Header Section -->
+    <header class="header">
+        <h1>Welcome to Manish H M's Portfolio</h1>
+        <p>Aspiring Computer Science Engineer</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Manish H.M from Madikeri, Kodagu. I am pursuing my Bachelor of Engineering in Computer Science at Vivekananda College of Engineering and Technology with a current grade of 85%.</p>
+        <p>I am passionate about technology, and I enjoy working on projects and improving my skills.</p>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>BE (Computer Science Engineering)</strong> - Vivekananda College Of Engineering And Technology,  Expected 2026</li>
+            <li><strong>PUC</strong> - Vidhyanekithana PU College Gonigoppa , Virajprt,  Passing Year:2022</li>
+            <li><strong>SSLC</strong> - Kendriya Vidhyalaya, Kodagu, Passing Year:2020</li>
+        </ul>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <p><strong>Technical Skills:</strong> C Language, Java</p>
+        <p><strong>Soft Skills:</strong> Self Confidence, Team Work</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: Manishhm4444@gmail.com</p>
+        <p>Phone: 8073538727</p>
+        <p>Location: Kigalu Village B ethri post,Virajprt Taluk Kodagu District</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Manish H M. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

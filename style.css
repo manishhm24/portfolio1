@@ -1,0 +1,142 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.nav a:hover {
+    background-color: #575757;
+}
+
+/* Section Styling */
+.section {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.url-checker input {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.url-checker button {
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.url-checker button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Welcome Image Styling */
+.welcome-image {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* FAQ Accordion Styling */
+.accordion {
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+}
+
+.accordion-item {
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.accordion-header {
+    background-color: #f1f1f1;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #ddd;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: #f9f9f9;
+    display: none;
+    border-top: 1px solid #ddd;
+    font-size: 1rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.accordion-content p {
+    margin: 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
